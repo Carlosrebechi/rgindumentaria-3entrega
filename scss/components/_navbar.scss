@@ -1,0 +1,31 @@
+.navbar{
+    /*Agrego flex al nav para asi tener ubicados horizontalmente la ul y la img*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    .navbar{
+        /*Agrego flex al nav para asi tener ubicados horizontalmente la ul y la img*/ 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav-list{
+        /*A la ul le agrego flex para ubicar en fila su li*/
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    .nav-list li{
+        padding: 3px;
+        
+    }
+    .nav-list li a{
+        color: rgb(23, 22, 22) ;
+                }  
+
+.nav-list1{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
